@@ -50,7 +50,7 @@ Sources to build RHEL (or CentOS) clones. *[Apache-2.0]*
 ## Version 6
 - **Oracle Linux 6.10**: `docker pull oraclelinux:6.10`
 - **Euro Linux 6** : `docker pull eurolinux/eurolinux-6`
-- **Scientific Linux 7 (Official)**: `docker pull sl:6`
+- **Scientific Linux 6 (Official)**: `docker pull sl:6`
 - **Scientific Linux 6 (EuroLinux)** : `docker pull eurolinux/scientific-linux-6`
 - **CentOS 6 (EuroLinux)** : `docker pull eurolinux/centos-6`
 - **CentOS 6.10 (USTC Mirror)**: `docker pull ustclug/centos:6.10`
