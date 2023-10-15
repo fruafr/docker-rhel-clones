@@ -1,5 +1,9 @@
 # docker-rhel-clones
-Sources to build RHEL (or CentOS) clones. *[Apache-2.0]*
+Links to RHEL (or CentOS) clones and their docker files. *[Apache-2.0]*
+
+- [Official IBM - RedHat Enterprise Linux (RHEL) Versions](#official-ibm---redhat-enterprise-linux-rhel-versions)
+- [List of clones and derivative versions for Docker/Podman]()
+- [Details of Clones and Derivatives](#details-of-clones-and-derivatives)
 
 # Official IBM - RedHat Enterprise Linux (RHEL) Versions
 
@@ -22,7 +26,7 @@ Sources to build RHEL (or CentOS) clones. *[Apache-2.0]*
 - [Website](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
 - [RHEL Releases](https://access.redhat.com/articles/3078)
 
-# Clones and derivative versions
+# List of clones and derivative versions for Docker/Podman
 
 ## Version 9
 - **Alma Linux 9.2**:  `docker pull almalinux:9.2` - *minimal*: `docker pull almalinux:9.2-minimal`
@@ -70,7 +74,7 @@ Sources to build RHEL (or CentOS) clones. *[Apache-2.0]*
 - [EuroLinux](#eurolinux)
 - [OracleLinux](#oraclelinux)
 - [Springdale Linux (Princeton/IAS)](#springdate-linux)
-- [Defunct][#defunct]
+- [Defunct](#defunct)
 - [University of Science and Technology of China (USTC) - Mirror](#university-of-science-and-technology-of-china-ustc) 
 
 ## AlmaLinux
