@@ -28,30 +28,34 @@ Sources to build RHEL (or CentOS) clones. *[Apache-2.0]*
 - **Alma Linux 9.2**:  `docker pull almalinux:9.2` - *minimal*: `docker pull almalinux:9.2-minimal`
 - **Rocky Linux 9.2**:  `docker pull rockylinux:9.2` - *minimal*: `docker pull rockylinux:9.2-minimal`
 - **Oracle Linux 9.2**: `docker pull oraclelinux:9` - *slim*: `docker pull oraclelinux:9-slim`
-- **Euro Linux 9**: `docker pull eurolinux/eurolinux-9` 
+- **Euro Linux 9**: `docker pull eurolinux/eurolinux-9` or `docker pull quay.io/eurolinux/eurolinux-9`
 
 ## Version 8
 - **Alma Linux 8.8**: `docker pull almalinux:8.8` - *minimal*: `docker pull almalinux:8.8-minimal`
 - **Rocky Linux 8.8**: `docker pull rockylinux:8.8` - *minimal*: `docker pull rockylinux:8.8-minimal`
 - **Oracle Linux 8.8**: `docker pull oraclelinux:8.8` - *slim*: `docker pull oraclelinux:8-slim`
-- **Euro Linux 8** : `docker pull eurolinux/eurolinux-8`
-- **CentOS 8 (EuroLinux)** : `docker pull eurolinux/centos-8`
+- **Euro Linux 8** : `docker pull eurolinux/eurolinux-8` or `docker pull quay.io/eurolinux/eurolinux-8`
+- **CentOS 8 (Official - quay.io)**: `docker pull quay.io/centos/centos8` or `docker pull quay.io/centos/8.4.2105`
+- **CentOS 8 (EuroLinux)** : `docker pull eurolinux/centos-8` or `docker pull quay.io/eurolinux/centos-8`
 - **CentOS 8 (USTC Mirror)** : `docker pull ustclug/centos:8`
 
 ## Version 7
 - **Oracle Linux 7.9**: `docker pull oraclelinux:7.9` - *slim*: `docker pull oraclelinux:7-slim`
-- **Euro Linux 7** : `docker pull eurolinux/eurolinux-7`
+- **Euro Linux 7** : `docker pull eurolinux/eurolinux-7` or `docker pull quay.io/eurolinux/eurolinux-7`
 - **Scientific Linux 7 (Official)**: `docker pull sl:7`
 - **Scientific Linux 7 (EuroLinux)** : `docker pull eurolinux/scientific-linux-7`
-- **CentOS 7 (EuroLinux)** : `docker pull eurolinux/centos-7`
-- **CentOS 7.9 (Official)** : [Docker Hub](https://hub.docker.com/_/centos): `docker pull centos:centos7.9.2009`
+- **CentOS 7 (EuroLinux)** : `docker pull eurolinux/centos-7` or `docker pull quay.io/eurolinux/centos-7`
+- **CentOS 7.9 (Official)** : `docker pull centos:centos7.9.2009`
+- **CentOS 7.9 (Official - quay.io)**:  `docker pull quay.io/centos/centos7` or `docker pull quay.io/centos/centos7.9.2009`
 - **CentOS 7.9 (USTC Mirror)**: docker pull ustclug/centos:7.9.2009
 
 ## Version 6
 - **Oracle Linux 6.10**: `docker pull oraclelinux:6.10`
-- **Euro Linux 6** : `docker pull eurolinux/eurolinux-6`
+- **Euro Linux 6** : `docker pull eurolinux/eurolinux-6` 
 - **Scientific Linux 6 (Official)**: `docker pull sl:6`
 - **Scientific Linux 6 (EuroLinux)** : `docker pull eurolinux/scientific-linux-6`
+- **CentOS 6 (Official - quay.io)**:  `docker pull quay.io/centos/centos6`
+- **CentOS 6 (EuroLinux)** : `docker pull eurolinux/centos-6`
 - **CentOS 6 (EuroLinux)** : `docker pull eurolinux/centos-6`
 - **CentOS 6.10 (USTC Mirror)**: `docker pull ustclug/centos:6.10`
 
@@ -61,6 +65,14 @@ Sources to build RHEL (or CentOS) clones. *[Apache-2.0]*
 
 # Details of Clones and Derivatives
 
+- [AlmaLinux](#almalinux)
+- [RockyLinux](#rockylinux)
+- [EuroLinux](#eurolinux)
+- [OracleLinux](#oraclelinux)
+- [Springdale Linux (Princeton/IAS)](#springdate-linux)
+- [Defunct][#defunct]
+- [University of Science and Technology of China (USTC) - Mirror](#university-of-science-and-technology-of-china-ustc) 
+
 ## AlmaLinux
 - Objective : completely binary compatible fork of RHEL
 - Offers commercial support
@@ -68,6 +80,7 @@ Sources to build RHEL (or CentOS) clones. *[Apache-2.0]*
 ### Current Versions
 - [ISOs Download](https://mirrors.almalinux.org/isos.html)
 - [DockerHub](https://hub.docker.com/_/almalinux)
+- [Quay.io](https://quay.io/repository/almalinux/almalinux)
 - **latest**: `docker pull almalinux:latest`
 - **minimal**: `docker pull almalinux:minimal`
 
@@ -96,6 +109,7 @@ Sources to build RHEL (or CentOS) clones. *[Apache-2.0]*
 ### Current versions
 - [ISOs Download](https://en.euro-linux.com/eurolinux/download/)
 - [DockerHub](https://hub.docker.com/_/eurolinux)
+- [Quay.io](https://quay.io/organization/eurolinux)
 
 ### Links
 - [Website](https://en.euro-linux.com/)
@@ -128,8 +142,17 @@ Sources to build RHEL (or CentOS) clones. *[Apache-2.0]*
 - [Website - Princeton University](https://springdale.math.ias.edu/)
 - [Distrowatch Page](https://distrowatch.com/table.php?distribution=springdale)
 
-## Scientific Linux
-- [Website](https://scientificlinux.org/): Latest: 7.9 (2020)
+## Defunct
+
+### CentOS
+- Latest: 7.2009 (EOL: 2024-06-30)
+- [Website](https://www.centos.org/centos-linux/)
+- [Docker Hub](https://hub.docker.com/_/centos)
+- [Quay.io](https://quay.io/repository/centos/centos)
+
+### Scientific Linux 
+- Latest: 7.9 (2020)
+- [Website](https://scientificlinux.org/)
 - [DockerHub](https://hub.docker.com/_/sl)
 
 ## University of Science and Technology of China (USTC)
