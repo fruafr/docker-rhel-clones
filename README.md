@@ -2,7 +2,7 @@
 Links to RHEL (or CentOS) clones and their docker files. *[Apache-2.0]*
 
 - [Official IBM - RedHat Enterprise Linux (RHEL) Versions](#official-ibm---redhat-enterprise-linux-rhel-versions)
-- [List of clones and derivative versions for Docker/Podman]()
+- [List of clones and derivative versions for Docker/Podman](list-of-clones-and-derivative-versions-for-dockerpodman)
 - [Details of Clones and Derivatives](#details-of-clones-and-derivatives)
 
 # Official IBM - RedHat Enterprise Linux (RHEL) Versions
@@ -39,20 +39,20 @@ Links to RHEL (or CentOS) clones and their docker files. *[Apache-2.0]*
 - **Rocky Linux 8.8**: `docker pull rockylinux:8.8` - *minimal*: `docker pull rockylinux:8.8-minimal`
 - **Oracle Linux 8.8**: `docker pull oraclelinux:8.8` - *slim*: `docker pull oraclelinux:8-slim`
 - **Euro Linux 8** : `docker pull eurolinux/eurolinux-8` or `docker pull quay.io/eurolinux/eurolinux-8`
-- **CentOS 8 (Official - quay.io)**: `docker pull quay.io/centos/centos8` or `docker pull quay.io/centos/8.4.2105`
+- **CentOS 8.4 (Official - quay.io)**: `docker pull quay.io/centos/centos8` or `docker pull quay.io/centos/8.4.2105`
 - **CentOS 8 (EuroLinux)** : `docker pull eurolinux/centos-8` or `docker pull quay.io/eurolinux/centos-8`
 - **CentOS 8 (USTC Mirror)** : `docker pull ustclug/centos:8`
 
 ## Version 7
 - **Oracle Linux 7.9**: `docker pull oraclelinux:7.9` - *slim*: `docker pull oraclelinux:7-slim`
 - **Euro Linux 7** : `docker pull eurolinux/eurolinux-7` or `docker pull quay.io/eurolinux/eurolinux-7`
-- **Scientific Linux 7 (Official)**: `docker pull sl:7`
-- **Scientific Linux 7 (EuroLinux)** : `docker pull eurolinux/scientific-linux-7`
 - **CentOS 7 (EuroLinux)** : `docker pull eurolinux/centos-7` or `docker pull quay.io/eurolinux/centos-7`
 - **CentOS 7.9 (Official)** : `docker pull centos:centos7.9.2009`
 - **CentOS 7.9 (Official - quay.io)**:  `docker pull quay.io/centos/centos7` or `docker pull quay.io/centos/centos7.9.2009`
 - **CentOS 7.9 (USTC Mirror)**: docker pull ustclug/centos:7.9.2009
-
+- **Scientific Linux 7 (Official)**: `docker pull sl:7`
+- **Scientific Linux 7 (EuroLinux)** : `docker pull eurolinux/scientific-linux-7`
+  
 ## Version 6
 - **Oracle Linux 6.10**: `docker pull oraclelinux:6.10`
 - **Euro Linux 6** : `docker pull eurolinux/eurolinux-6` 
