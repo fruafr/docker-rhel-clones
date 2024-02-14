@@ -49,7 +49,7 @@ Links to RHEL (or CentOS) clones and their docker files. *[Apache-2.0]*
 - **CentOS 7 (EuroLinux)** : `docker pull eurolinux/centos-7` or `docker pull quay.io/eurolinux/centos-7`
 - **CentOS 7.9 (Official)** : `docker pull centos:centos7.9.2009`
 - **CentOS 7.9 (Official - quay.io)**:  `docker pull quay.io/centos/centos7` or `docker pull quay.io/centos/centos7.9.2009`
-- **CentOS 7.9 (USTC Mirror)**: docker pull ustclug/centos:7.9.2009
+- **CentOS 7.9 (USTC Mirror)**: `docker pull ustclug/centos:7.9.2009`
 - **Scientific Linux 7 (Official)**: `docker pull sl:7`
 - **Scientific Linux 7 (EuroLinux)** : `docker pull eurolinux/scientific-linux-7`
   
